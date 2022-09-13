@@ -112,7 +112,7 @@ function DefaultFooter({ content }) {
 
 // Typechecking props for the DefaultFooter
 DefaultFooter.propTypes = {
-  content: PropTypes.objectOf(PropTypes.oneOfType([PropTypes.any, PropTypes.array])).isRequired,
+  content: PropTypes.objectOf(PropTypes.oneOfType([PropTypes.object, PropTypes.array])).isRequired,
 };
 
 export default DefaultFooter;

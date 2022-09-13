@@ -44,6 +44,7 @@ import Icon from "@mui/material/Icon";
 
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
+import OurStory from "layouts/pages/landing-pages/our-story";
 import HowItWorks from "layouts/pages/landing-pages/how-it-works";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 // import Author from "layouts/pages/landing-pages/author";
@@ -85,8 +86,8 @@ const routes = [
   {
     name: "Our Story",
     icon: <Icon>article</Icon>,
-    route: "/pages/landing-pages/about-us",
-    component: <AboutUs />,
+    route: "/pages/landing-pages/our-story",
+    component: <OurStory />,
   },
   {
     name: "Contact us",

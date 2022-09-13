@@ -40,7 +40,7 @@ import bgImage from "assets/images/bg-about-us.jpg";
 
 import CenteredFooter from "../../../examples/Footers/CenteredFooter";
 
-function AboutUs() {
+function OurStory() {
   return (
     <>
       <DefaultNavbar routes={routes} sticky />
@@ -79,7 +79,7 @@ function AboutUs() {
                 },
               })}
             >
-              Our Mission
+              Our story
             </MKTypography>
           </Grid>
         </Container>
@@ -92,4 +92,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default OurStory;

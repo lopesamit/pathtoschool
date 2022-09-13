@@ -46,7 +46,7 @@ import footerRoutes from "footer.routes";
 
 // Images
 // import bgImage from "assets/images/bg-presentation.jpg";
-// import bgImage from "assets/images/bg-about-us.jpg";
+import bgImage from "assets/images/stationery.jpg";
 
 import CenteredFooter from "../../examples/Footers/CenteredFooter";
 
@@ -59,7 +59,7 @@ function Presentation() {
         width="100%"
         bgColor="#4183D7"
         sx={{
-          // backgroundImage: `url(${bgImage})`,
+          backgroundImage: `url(${bgImage})`,
           backgroundSize: "cover",
           backgroundPosition: "top",
           display: "grid",
@@ -71,7 +71,7 @@ function Presentation() {
             <MKTypography
               variant="h1"
               color="white"
-              mt={-6}
+              mt={-8}
               mb={1}
               sx={({ breakpoints, typography: { size } }) => ({
                 [breakpoints.down("md")]: {
